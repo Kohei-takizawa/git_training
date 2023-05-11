@@ -61,13 +61,16 @@ Gitの練習です
 
 ・git push origin branch2
 
-・txtファイルを更新してadd, commit
 
-・git push origin branch2:branch1
+------既存のリモートブランチへのチェックアウト-------------------------------------------------------------------------------------
+・2つ目のgit bashでgit fetch
 
+・git branch -r
 
-------競合の対応-------------------------------------------------------------------------------------
-・txtファイルを更新してadd, commit, push
+・git checkout -b branch1 origin/branch1
+
+・git checkout -b branch1 origin/branch2
+
 
 
 
