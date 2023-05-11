@@ -1,8 +1,6 @@
 Gitの練習です
 
-・git bashを開く
-
-・cd C:\Users\pc-000490\git_training
+・適当なフォルダで右クリックしてgit bashを開く
 
 ・git init
 
@@ -18,5 +16,19 @@ Gitの練習です
 
 ・git log
 
-・
+・GitHubにログインして「Create repository」ボタン押下してリモートレポジトリを作成する
+
+・git remote add origin git@github.com:Kohei-takizawa/git_training.git
+
+・git push origin main
+
+・ここまででGitHub上のgit_trainingのリモートレポジトリが作成された
+
+・別のフォルダで2つ目のgit bashを開く
+
+・git clone git@github.com:Kohei-takizawa/git_training.git
+
+・最初に開いたgit bashでtxtファイルを修正してadd, commit, push
+
+・git pull
 
