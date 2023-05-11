@@ -1,0 +1,22 @@
+Gitの練習です
+
+・git bashを開く
+
+・cd C:\Users\pc-000490\git_training
+
+・git init
+
+・git status
+
+・git add git_sample.txt
+
+・git status
+
+・git commit -m "training version 1.0"
+
+・git status
+
+・git log
+
+・
+
